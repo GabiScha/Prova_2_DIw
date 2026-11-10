@@ -1,0 +1,11 @@
+{
+  "participantes": [
+    {
+      "id": "1",
+      "nome": "Joao",
+      "foto": "/images/joao.jpg",
+      "naRoca": true
+    }
+  ],
+  "votos": [{}]
+}

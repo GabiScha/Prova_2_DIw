@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+:root {
+    --fonte: "Libre Baskerville", Georgia, serif;
+}
+
+body {
+    font-family: var(--fonte);
+    background-color: rgb(96, 42, 0);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+#navbar {
+    background-color: rgb(44, 19, 0);
+}
+#navbar .a{
+    color: orange;
+}
+
+#navbar .titulo {
+    color: orange;
+}
+
+#navbar .nav-link.active {
+    color: #000000;
+    background-color: orange;
+    border-radius: 0.25rem;
+}
+#navbar .nav-link {
+    color: white;
+}
+
+.home-foto {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.home-card {
+    background-color: #fffaf2;
+}
+
+.voto-card,
+.peao-card {
+    background-color: #fffaf2;
+    border: 0;
+    overflow: hidden;
+}
+
+.participante-imagem {
+    aspect-ratio: 4 / 3;
+    object-fit: cover;
+}
+
+.peao-imagem {
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.demais-peoes {
+    margin-top: 3rem;
+}
+
+
+.rodape {
+    color: white;
+}
+.btn-votar-agora {
+    background-color: red;
+    color: white;
+}
+.btn-parcial {
+    background-color: black;
+    color: white;
+}
+.logo-fazenda {
+    width: 70px;
+    height: 45px;
+    object-fit: cover;
+}
+#titulo-votacao {
+    color: orange;
+}
+
+.texto-votacao {
+    color: white;
+}
+#titulo-demais-peoes {
+    color: orange;
+}
